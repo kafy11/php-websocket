@@ -1,0 +1,3 @@
+Projeto websocket simples feito com PHP. Para iniciar o websocket só é necessário instalar as bibliotecas usando o composer e rodar por linha de comando o arquivo server.php.
+
+Para conectar utilize a porta 8080 e informe um parâmetro GET com um id de identificação para o client. Ao enviar uma mensagem, é necessário enviar uma string contendo um json que tenha uma propriedade "to" com o id do client destino.
